@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.masthead h1 {
+    font-size: 3.5rem;
+}
+
+.masthead p {
+    font-size: 1.25rem;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.skill-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    background-color: #1c1c1c;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #000;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.bg-light {
+    background-color: #1c1c1c !important;
+}
